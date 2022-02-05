@@ -1,6 +1,7 @@
 
 clean:
 	@rm -f a.out
+	@find ./build ! -name '.gitkeep' -type f -exec rm -f {} +
 
 hello-c: clean
 	gcc src/hello.c
