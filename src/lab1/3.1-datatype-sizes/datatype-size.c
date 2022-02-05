@@ -1,4 +1,4 @@
-// hello.c
+// datatype-size.c
 #include <stdio.h>
 
 int main() {
