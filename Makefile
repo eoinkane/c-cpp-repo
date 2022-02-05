@@ -1,6 +1,6 @@
 
 clean:
-	@rm a.out
+	@rm -f a.out
 
 hello-c: clean
 	gcc src/hello.c
@@ -9,3 +9,6 @@ hello-c: clean
 hello-cpp: clean
 	g++ src/hello.cpp
 	chmod +x a.out
+
+run:
+	@./a.out
