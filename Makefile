@@ -4,11 +4,11 @@ clean:
 	@find ./build ! -name '.gitkeep' -type f -exec rm -f {} +
 
 # hello-c: clean
-# 	gcc src/hello.c
+# 	gcc c-cpp/src/hello.c
 # 	chmod +x a.out
 
 hello-cpp: clean
-	g++ src/hello.cpp
+	g++ c-cpp/src/hello.cpp
 	chmod +x a.out
 
 run:
