@@ -12,7 +12,10 @@
 		"ms-vscode.cpptools",
 		"ms-vscode.cpptools-extension-pack",
 		"ms-vscode.cpptools-themes",
-		"twxs.cmake"
+		"twxs.cmake",
+		"vscjava.vscode-java-pack",
+		"ms-python.python",
+		"eamodio.gitlens"
 	],
 	// "workspaceFolder": "/root/cpp-getstart"
 	"remoteUser": "vscode",
